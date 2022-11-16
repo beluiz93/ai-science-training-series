@@ -1,0 +1,24 @@
+Jobid: 10115302
+qsub -I -n 1 -t 60 -A ALCFAITP -q full-node
+Tue Nov 15 23:44:21 2022 +0000 (UTC) submitted with cwd set to: /lus/swift/home/beluiz/bernardo/ai-science-training-series/06_distributedTraining/homework
+jobid 10115302 submitted from terminal /dev/pts/13
+Tue Nov 15 23:44:48 2022 +0000 (UTC) 
+Tue Nov 15 23:44:48 2022 +0000 (UTC) Command: '/usr/bin/ssh' 'thetagpu09' '/usr/bin/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.10115302' '--jobid' '10115302' '--cwd' '/lus/swift/home/beluiz/bernardo/ai-science-training-series/06_distributedTraining/homework' '--env' 'COBALT_JOBID=10115302' '/bin/sleep' '3600'
+Tue Nov 15 23:44:48 2022 +0000 (UTC) 
+Tue Nov 15 23:44:48 2022 +0000 (UTC) Environment:
+Tue Nov 15 23:44:48 2022 +0000 (UTC) SHELL=/bin/bash
+Tue Nov 15 23:44:48 2022 +0000 (UTC) COBALT_NODEFILE=/tmp/tmpE7wphT
+Tue Nov 15 23:44:48 2022 +0000 (UTC) COBALT_PARTNAME=thetagpu09
+Tue Nov 15 23:44:48 2022 +0000 (UTC) COBALT_JOBID=10115302
+Tue Nov 15 23:44:48 2022 +0000 (UTC) COBALT_STARTTIME=1668555872
+Tue Nov 15 23:44:48 2022 +0000 (UTC) LOGNAME=beluiz
+Tue Nov 15 23:44:48 2022 +0000 (UTC) USER=beluiz
+Tue Nov 15 23:44:48 2022 +0000 (UTC) COBALT_ENDTIME=1668559472
+Tue Nov 15 23:44:48 2022 +0000 (UTC) COBALT_PARTSIZE=1
+Tue Nov 15 23:44:48 2022 +0000 (UTC) HOME=/home/beluiz
+Tue Nov 15 23:44:48 2022 +0000 (UTC) COBALT_JOBSIZE=1
+Tue Nov 15 23:44:48 2022 +0000 (UTC) 
+Tue Nov 15 23:44:48 2022 +0000 (UTC) Info: stdin received from /dev/null
+Tue Nov 15 23:44:48 2022 +0000 (UTC) Info: stdout sent to /lus/swift/home/beluiz/bernardo/ai-science-training-series/06_distributedTraining/homework/10115302.output
+Tue Nov 15 23:44:48 2022 +0000 (UTC) Info: stderr sent to /lus/swift/home/beluiz/bernardo/ai-science-training-series/06_distributedTraining/homework/10115302.error
+Tue Nov 15 23:44:48 2022 +0000 (UTC) 
